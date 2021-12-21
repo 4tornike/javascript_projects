@@ -1,0 +1,343 @@
+@media only screen and (max-width: 375px) {
+
+    .body {
+        width: 375px;
+        height: auto;
+    }
+    
+    .header {
+        display: none;
+        pointer-events: none;
+    }
+    
+    .full-width {
+        width: 375px;
+    }
+    
+    .main {
+        height: 2276px;
+    }
+    
+    .main-container {
+        width: 375px;
+    }
+    
+    .home-container {
+        margin: 12px 16px 16px 16px;
+    }
+    
+    .filter-image {
+        padding: 0px;
+    }
+    
+    .home {
+        width: 16px;
+        overflow: hidden;
+    }
+    
+    .home-image {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .news {
+        -ms-grid-columns: 375px;
+        grid-template-columns: 375px;
+    }
+    
+    
+    .news-left-container {
+        width: 327px;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    
+    .news-image {
+        width: 375px;
+        height: 388px;
+    }
+    
+    .news-right {
+        width: 375px;
+        height: 326px;
+    }
+    
+    .news-right-container {
+        width: 327px;
+    }
+    
+    .select-input-box {
+        width: 327px;
+    }
+    
+    .keywords {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .news-underline {
+        margin-top: 40px;
+        width: 327px;
+    }
+    
+    .info-grid {
+        margin: 0px 24px;
+        margin-bottom: 40px;
+            grid-template-areas: 
+        "info1"
+        "info2"
+        "info3";
+        width: 327px;
+        height: 550px;
+        row-gap: 24px;
+        -webkit-column-gap: 0px;
+           -moz-column-gap: 0px;
+                column-gap: 0px;
+    }
+    
+    .info1 {
+        width: 327px;
+        height: 102px;
+    }
+    
+    .info2 {
+        width: 327px;
+        height: 182px;
+    }
+    
+    .info3 {
+        height: 182px;
+        width: 327px;
+    }
+    
+    .time-ago {
+        height: 16px;
+        margin-top: 24px;
+    }
+    
+    .info-underline {
+        margin-bottom: 40px;
+    }
+    
+    .sec3 {
+        margin: 0px 24px;
+        height: 657px;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    
+    .el {
+        width: 327px;
+        height: 180px;
+    }
+    
+    .sec3-text {
+        width: 327px;
+        height: 352px;
+        visibility: hidden;
+        position: relative;
+        pointer-events: none;
+    }
+    
+    .sec3-text::after {
+        content: 'Lorem ipsum dolor sit amet, consectetur opikhfkseo adipisifwcing elit, sed do eiusmod temporeop iodkjnl incididunt ut labore et dolore roipi magnaropi aliquia. Ut enim ad minim veeniam, quiswepo nostruklad uio exercitation ullamco laboris nisi ut aliquip ex eawiopl commodo consequat. Duis ropil aute irure dolor inop reprehenderit in tufpoyiopy voluptate velit esse plijxn cillum dolore eu fugiatupi nulla parieratur. Excepteuri sint. Culpa qui officia deserunt mollit anim id estio ropiluyl laborum. Sed ut perspiciatis unde omnis iste natuswi error sit voluptartem accusantium polu doloremquep laudantium, totam rem aperiam, eaque ipsa.';
+        visibility: visible;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    .sec3-underline {
+        width: 327px;
+        margin-top: 40px;
+    }
+    
+    .news-underline {
+        width: 327px;
+    }
+    
+    .footer {
+        display: none;
+        pointer-events: none;
+        width: 0px;
+        height: 0px;
+        -webkit-transform: translateX(250%);
+            -ms-transform: translateX(250%);
+                transform: translateX(250%);
+    }
+    
+    }
+
+
+
+/* @media only screen and (max-width: 375px) {
+
+.body {
+    width: 375px;
+    height: auto;
+}
+
+.header {
+    display: none;
+    pointer-events: none;
+}
+
+.full-width {
+    width: 375px;
+}
+
+.main {
+    height: 2276px;
+}
+
+.main-container {
+    width: 375px;
+}
+
+.home-container {
+    margin: 12px 16px 16px 16px;
+}
+
+.filter-image {
+    padding: 0px;
+}
+
+.home {
+    width: 16px;
+    overflow: hidden;
+}
+
+.home-image {
+    width: 16px;
+    height: 16px;
+}
+
+.news {
+    grid-template-columns: 375px;
+}
+
+
+.news-left-container {
+    width: 327px;
+    object-fit: cover;
+}
+
+.news-image {
+    width: 375px;
+    height: 388px;
+}
+
+.news-right {
+    width: 375px;
+    height: 326px;
+}
+
+.news-right-container {
+    width: 327px;
+}
+
+.select-input-box {
+    width: 327px;
+}
+
+.keywords {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.news-underline {
+    margin-top: 40px;
+    width: 327px;
+}
+
+.info-grid {
+    margin: 0px 24px;
+    margin-bottom: 40px;
+    grid-template-areas: 
+    "info1"
+    "info2"
+    "info3";
+    width: 327px;
+    height: 550px;
+    row-gap: 24px;
+    column-gap: 0px;
+}
+
+.info1 {
+    width: 327px;
+    height: 102px;
+}
+
+.info2 {
+    width: 327px;
+    height: 182px;
+}
+
+.info3 {
+    height: 182px;
+    width: 327px;
+}
+
+.time-ago {
+    height: 16px;
+    margin-top: 24px;
+}
+
+.info-underline {
+    margin-bottom: 40px;
+}
+
+.sec3 {
+    margin: 0px 24px;
+    height: 657px;
+    justify-content: space-between;
+}
+
+.el {
+    width: 327px;
+    height: 180px;
+}
+
+.sec3-text {
+    width: 327px;
+    height: 352px;
+    visibility: hidden;
+    position: relative;
+    pointer-events: none;
+}
+
+.sec3-text::after {
+    content: 'Lorem ipsum dolor sit amet, consectetur opikhfkseo adipisifwcing elit, sed do eiusmod temporeop iodkjnl incididunt ut labore et dolore roipi magnaropi aliquia. Ut enim ad minim veeniam, quiswepo nostruklad uio exercitation ullamco laboris nisi ut aliquip ex eawiopl commodo consequat. Duis ropil aute irure dolor inop reprehenderit in tufpoyiopy voluptate velit esse plijxn cillum dolore eu fugiatupi nulla parieratur. Excepteuri sint. Culpa qui officia deserunt mollit anim id estio ropiluyl laborum. Sed ut perspiciatis unde omnis iste natuswi error sit voluptartem accusantium polu doloremquep laudantium, totam rem aperiam, eaque ipsa.';
+    visibility: visible;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.sec3-underline {
+    width: 327px;
+    margin-top: 40px;
+}
+
+.news-underline {
+    width: 327px;
+}
+
+.footer {
+    display: none;
+    pointer-events: none;
+    width: 0px;
+    height: 0px;
+    transform: translateX(250%);
+}
+
+} */
